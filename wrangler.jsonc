@@ -1,0 +1,10 @@
+{
+  // Name MUSS mit dem Worker-Namen im Cloudflare-Dashboard übereinstimmen
+  "name": "humanloop",
+  "compatibility_date": "2026-06-26",
+
+  // Sagt Cloudflare: serviere die Dateien in diesem Ordner als statische Website
+  "assets": {
+    "directory": "./"
+  }
+}
